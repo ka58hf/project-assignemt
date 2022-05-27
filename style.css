@@ -1,0 +1,316 @@
+nav a {
+  left: 18%;
+  font-size: 14px;
+  padding-top: 1%;
+  padding-right:1%;
+  padding-left: 1%;
+  letter-spacing: 0px;
+  color: black;
+  text-decoration: none;  
+  position: relative;
+  font-family: 'PT Sans', sans-serif;
+  text-align: center;
+}
+/*this is what is what moves the navigation bar */
+nav {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 100%;
+  z-index: 1;
+  background:white;
+  position: relative;
+}
+/* this makes it when i hover over the link it turn grey*/
+nav a:hover {
+  color: gray;
+}
+/* this is the css that i used to create the button for find out more*/
+
+/* changing the size of the logo/ nav image*/
+nav img{
+  left: 0px;
+  float: left;
+  top:-8px;
+  height: 36px;
+
+}
+
+
+/*this is how i moved the banner around so i can have it in the right place */
+div img{
+  padding-top: 10px;
+  margin-left:-2px;
+  height:375px;
+  }
+
+/* this is the css that i used to create the button for find out more*/
+button{
+background-color: blue; /* Red*/
+   font-family: Knockout68;
+   border: none;
+   color: white;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 18px;
+   letter-spacing: 3px;
+   height: 45px;
+   min-width: 200px;
+   max-width: 300px;
+   line-height: 1em;
+   margin-left: 500px;
+   margin-top: 10px;
+  
+}
+
+/* this is how i edited the text under the banner*/
+.header h1 {
+padding: 60px;
+text-align: center;
+background: #ffffff;
+color: black;
+font-size: 50px;
+}
+/* this is how i chaned the size of the h1 text*/
+div h1{
+  font-size: 24px;
+}
+/*this is how i changed the size of the p text under the h1*/
+div p{
+  font-size: 20px;
+  }
+/* this is how i moved the second banner down */
+#sec3{
+  margin-top:10%;
+  height:700px;
+}
+/* this is how i edited the second button*/
+button2{
+background-color: blue; /* Red*/
+   font-family: Knockout68;
+   border: none;
+   color: white;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 18px;
+   letter-spacing: 3px;
+   height: 45px;
+   min-width: 200px;
+   max-width: 300px;
+   line-height: 2.5em;
+   margin-left: 27%;
+   margin-top: 10%;
+  
+}
+/*this is how i edited the third button*/
+button3{
+background-color:blue; /* Red*/
+   font-family: Knockout68;
+   border: none;
+   color: white;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 18px;
+   letter-spacing: 3px;
+   height: 45px;
+   min-width: 200px;
+   max-width: 300px;
+   line-height: 2.5em;
+   margin-left: 40%;
+   margin-top: 0%;
+}
+
+/*this is how i edited the black and red boxes*/
+#pan4, #pan5 {
+  position: relative;
+  float: left;
+  color: black;
+  width: 47%;
+  height: 600px;
+  margin-top: 10px;
+  margin-bottom: 65px;
+}
+
+/*this is how i edited the black and red boxes*/
+#pan4 {
+  background-color: whitelack;
+  margin-left: 2%;
+  margin-right: 1%;
+}
+/*this is how i edited the black and red boxes*/
+#pan5 {
+  background-color: blue;
+  margin-left: 1%;
+  margin-right: 2%;
+  /*this is how i edited the text black and red boxes*/
+}
+
+#pan4 h1, #pan5 h1 {
+  font-family: 'Anton', sans-serif;
+  font-size: 32px;
+  text-align: center;
+  font-weight: lighter;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+/*this is how i edited the text black and red boxes*/
+#pan4 h1 {
+  padding-top: 150px;
+  text-decoration:underline black;
+}
+
+/*this is how i edited the text black and red boxes*/
+#pan5 h1 {
+  padding-top: 160px;
+  text-decoration: underline black;
+  text-underline-offset: 10px; 
+}
+/*this is how i edited the text black and red boxes*/
+#pan4 p, #pan5 p {
+  position: relative;
+  top: -15px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  text-align: center;
+  margin-left: 130px;
+  margin-right: 130px;
+}
+
+/*this is how i edited the button in the black and red boxes*/
+#pan4 button, #pan5 button {
+  border: 3px solid black;
+  font-family: 'Anton', sans-serif;
+  color:black;
+  font-size: 15px;
+  font-weight: lighter;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 8px;
+  padding-left: 54px;
+  padding-right: 54px;
+  margin: 0;
+  position: relative;
+  top: 6%;
+  left: 49.5%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+/* this is how i edited the button inseide the black and red boexes */
+#pan4 button{
+  background-color: blue;
+  top: 6%;
+}
+
+/* this is how i edited the button inseide the black and red boexes */
+#pan5 button{
+  background-color: white;
+  top: 7%;
+  padding-left: 47px;
+  padding-right: 47px;
+}
+
+/* this is how i edited the button inseide the black and red boexes */
+#pan5 button:hover{
+  background-color: white;
+  padding-left: 47px;
+  padding-right: 47px;
+}
+
+
+/*this is how i edited the footer*/
+footer {
+  width: 100%;
+  display: flow-root;
+  position: relative;
+  padding-bottom: 40px;
+  color: white;
+  background: black;
+  font-family: 'Anton', sans-serif;
+  font-size: 13px;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+/*this is how i edited the footer*/
+footer ul#links {
+  position: relative;
+  float: left;
+  top: 5px;
+  left: -5px;
+  font-size: 14px;
+  padding-top: 25px;
+  padding-right: 6.8%;
+  margin: auto;
+  list-style: none;
+}
+/*this is how i edited the footer*/
+footer ul#links li {
+  padding-top: 8px;
+}
+/*this is how i edited the footer*/
+footer ul#links li a{
+  color: white;
+  text-decoration: none;
+}
+/*this is how i edited the footer*/
+footer section#social {
+  line-height: 0px;
+  position: relative;
+  float: right;
+  top: 35px;
+  right: 30px;
+}
+/*this is how i edited the footer*/
+footer section#social p {
+  width: 95%;
+  position: relative;
+  left: 45px;
+}
+/*this is how i edited the footer*/
+footer ul#social li{
+  list-style: none;
+  display: inline;
+  padding: 7px;
+}
+/*this is how i edited the footer*/
+footer ul#social li a img{
+  height: 40px;
+  display: inline;
+}
+/*this is how i edited the footer*/
+hr#line {
+  width: 95.5%;
+  position: relative;
+  top: 48px;
+  left: -2px;
+  background: white;
+  color: white;
+}
+/*this is how i edited the footer*/
+#logo-white{
+  padding-top: 100px;
+  padding-left: 32px;
+  height: 35px;
+}
+/*this is how i edited the footer*/
+#TCs {
+  position: relative;
+  float: right;
+  bottom: 20px;
+  right: 35px;
+}
+/*this is how i edited the footer*/
+#TCs a {
+  padding-left: 35px;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  text-decoration: none;
+  text-transform: initial;
+  font-size: 14px;
+  letter-spacing: 0px;
+}
+
+
